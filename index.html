@@ -8,7 +8,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="app">
+        <div class="container">
+            <div class="oopquiz">
+                <div class="oopquiz__question-box">
+                    <h1 class="oopquiz__question">What is the name of the Seventh Hokage?</h1>
+                    <p class="oopquiz__tracker">1 of 10</p>
+                    <div class="progres">
+                        <div class="progress__inner"></div>
+                    </div>
+                    <p class="oopquiz__tagline">Choose your answer below!</p>
+                </div>
+                <div class="oopquiz__choices-box">
+                    <ul class="oopquiz__choices">
+                        <!-- TODO: dynamically with JavaScript -->
+                        <li class="oopquiz__choice">
+                            <input type="radio" name="choice" class="oopquiz__input" id="choice0">
+                            <label for="choice0" class="oopquiz__label">
+                                <i></i>
+                                Monkey D. Luffy
+                            </label>
+                        </li>
+                        <li class="oopquiz__choice">
+                            <input type="radio" name="choice" class="oopquiz__input" id="choice0">
+                            <label for="choice0" class="oopquiz__label">
+                                <i></i>
+                                Naruto Uzumaki
+                            </label>
+                        </li>
+                        <li class="oopquiz__choice">
+                            <input type="radio" name="choice" class="oopquiz__input" id="choice0">
+                            <label for="choice0" class="oopquiz__label">
+                                <i></i>
+                                Sasuke Uchiha
+                            </label>
+                        </li>
+                        <li class="oopquiz__choice">
+                            <input type="radio" name="choice" class="oopquiz__input" id="choice0">
+                            <label for="choice0" class="oopquiz__label">
+                                <i></i>
+                                Ichigo Kurosaki
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="oopquiz__footer">
+                    <button class="button button--bordered next">Next</button>
+                    <button class="button button--bordered restart">Restart</button>
+                </div>
+            </div>
+        </div>        
+    </div>
 
     <script src="app.js"></script>
 </body>
